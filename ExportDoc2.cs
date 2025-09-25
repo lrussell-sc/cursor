@@ -241,36 +241,36 @@ namespace SmartCatalog.ExportDocx2
 
             try
             {
-                topMargin = Convert.ToInt32(settingsItem["Top Margin"]);
-                bottomMargin = Convert.ToInt32(settingsItem["Bottom Margin"]);
-                pageHeight = Convert.ToUInt32(settingsItem["Page Height"]);
-                pageWidth = Convert.ToUInt32(settingsItem["Page Width"]);
-                rightMargin = Convert.ToUInt32(settingsItem["Right Margin"]);
-                leftMargin = Convert.ToUInt32(settingsItem["Left Margin"]);
-                footerDistance = Convert.ToUInt32(settingsItem["Footer Distance"]);
-                headerDistance = Convert.ToUInt32(settingsItem["Header Distance"]);
-                spaceBetweenColumns = Convert.ToUInt32(settingsItem["Space Between Columns"]);
+                topMargin = System.Convert.ToInt32(settingsItem["Top Margin"]);
+                bottomMargin = System.Convert.ToInt32(settingsItem["Bottom Margin"]);
+                pageHeight = System.Convert.ToUInt32(settingsItem["Page Height"]);
+                pageWidth = System.Convert.ToUInt32(settingsItem["Page Width"]);
+                rightMargin = System.Convert.ToUInt32(settingsItem["Right Margin"]);
+                leftMargin = System.Convert.ToUInt32(settingsItem["Left Margin"]);
+                footerDistance = System.Convert.ToUInt32(settingsItem["Footer Distance"]);
+                headerDistance = System.Convert.ToUInt32(settingsItem["Header Distance"]);
+                spaceBetweenColumns = System.Convert.ToUInt32(settingsItem["Space Between Columns"]);
             }
             catch
             {
-                topMargin = Convert.ToInt32("1420");
-                bottomMargin = Convert.ToInt32("1650");
-                pageHeight = Convert.ToUInt32("15840");
-                pageWidth = Convert.ToUInt32("12240");
-                rightMargin = Convert.ToUInt32("910");
-                leftMargin = Convert.ToUInt32("1080");
-                footerDistance = Convert.ToUInt32("940");
-                headerDistance = Convert.ToUInt32("720");
-                spaceBetweenColumns = Convert.ToUInt32("720");
+                topMargin = System.Convert.ToInt32("1420");
+                bottomMargin = System.Convert.ToInt32("1650");
+                pageHeight = System.Convert.ToUInt32("15840");
+                pageWidth = System.Convert.ToUInt32("12240");
+                rightMargin = System.Convert.ToUInt32("910");
+                leftMargin = System.Convert.ToUInt32("1080");
+                footerDistance = System.Convert.ToUInt32("940");
+                headerDistance = System.Convert.ToUInt32("720");
+                spaceBetweenColumns = System.Convert.ToUInt32("720");
             }
 
             try
             {
-                defaultNumberOfColumns = Convert.ToInt32(settingsItem["Default Number of Columns"]);
+                defaultNumberOfColumns = System.Convert.ToInt32(settingsItem["Default Number of Columns"]);
             }
             catch
             {
-                defaultNumberOfColumns = Convert.ToInt32("2");
+                defaultNumberOfColumns = System.Convert.ToInt32("2");
             }
 
             wordOutputPath = Sitecore.IO.FileUtil.GetWorkFilename(Sitecore.Configuration.Settings.TempFolderPath, startItem.Name, ".docx");
@@ -490,7 +490,7 @@ namespace SmartCatalog.ExportDocx2
             Columns columns1 = new Columns()
             {
                 Space = spaceBetweenColumns.ToString(),
-                ColumnCount = Convert.ToInt16(numberOfColumns)
+                ColumnCount = System.Convert.ToInt16(numberOfColumns)
             };
 
             DocGrid docGrid1 = new DocGrid()
