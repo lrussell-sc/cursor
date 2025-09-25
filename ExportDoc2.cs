@@ -737,7 +737,7 @@ namespace SmartCatalog.ExportDocx2
 
             Run run3 = new Run();
             FieldCode fieldCode1 = new FieldCode() { Space = SpaceProcessingModeValues.Preserve };
-            fieldCode1.Text = @" TOC \o \"1-1\"";
+            fieldCode1.Text = @" TOC \o ""1-1""";
             run3.Append(fieldCode1);
 
             Run run4 = new Run();
