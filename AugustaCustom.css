@@ -1,0 +1,1505 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin:0;
+	Padding:0;
+	 }
+
+html {
+    font-size: 100%;
+	 }
+	 
+iframe.scFixedRibbon {
+	display: none !important;
+}
+
+#leftpanel div.sidebox:nth-child(6) .hdr{
+	display: none !important;
+}
+
+body{
+	height: 100%;
+	width:100%;
+    margin: 0;
+	padding: 0px;
+	z-index: 1;
+	 }
+
+blockquote {
+	margin-left:40px;
+	 }
+
+form {
+	display: block;
+	width: 100%;
+	float: left;
+	z-index: 1;
+	 }
+
+a img {
+	border:none;
+	 }
+	
+img {
+    max-width: 100%;
+	height: auto;
+	 }	
+
+a {
+	text-decoration:none;
+	 }
+
+a:link {
+
+	 }
+
+a:hover {
+	text-decoration:underline;
+	 }
+
+strong {
+    font-weight: bold;
+	 }
+
+ul.sc-ListBullet {
+	margin-left: 20px;
+	 }
+
+ul {
+
+	 }
+
+#smallmenu {
+   display:none;
+	 }
+
+#pagewrapper1 {
+	min-height:600px;
+	z-index:-1;
+	width: 100%;
+	float:none;
+	margin-left:auto;
+	margin-right:auto;
+	 }
+
+#pagewrapper2 {
+	z-index:0;
+	margin-top: 0px;
+	display:block;
+    padding-top: 0px;
+	width: 100%;
+	margin-left:auto;
+	margin-right:auto;
+	 }
+
+#banner {
+    display: block;
+	display: inline;
+    width: 100%;
+	margin: 0 auto;
+	min-height: 60px;
+	z-index: 1;
+    max-width: 960px;
+	 }
+
+.bannerWrap {
+    max-width:960px;
+	width: 100%;
+	margin-left:auto;
+	margin-right:auto;
+	 }
+
+.bannerWrap p {
+	text-align: right;
+	font-size: 20px;
+	 }
+
+#middle{
+	display: block;
+	max-width: 1170px;
+	width: 100%;
+	margin: 30px auto;
+	 }
+
+#leftpanel{
+	display: block;
+	width: 31%;
+	float: right;
+	padding-right: 15px;
+    padding-left: 15px;
+    font-weight: normal;
+	 }
+	
+#rightpanel {
+	display: block;
+	float: left;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-right: 15px;
+	width: 69%;
+	 }
+		
+#rightpanel #main {
+	display:block;
+	float: left;
+	margin: 0;
+	min-height: 600px;
+	width: 100%;
+	 }
+	 
+input#catalogdropdown_0_Button1 {
+	border: 1px solid #ccc;
+	line-height: 1.5;
+}
+
+.credits {
+	text-align:right;
+	margin:0 0px 0 5px;
+	 }
+	
+.sc-totalcredits { 
+	text-align:right;
+	font-weight:bold;
+	margin:10px 5px 0 5px;
+	border-top:1px solid #aaa;
+	 }
+
+.sidebox div.hdr {
+	font-weight: bold;
+	font-size: 14px;
+	font-size: .875rem;
+	padding: 10px;
+	 }
+
+.sidebox div.sideboxbrdr ul{
+	list-style: none outside none;
+	margin: 0;
+	padding: 0;
+	 }
+
+.expandable {
+	float:left;
+	 }
+	 
+.sidebox div.sideboxbrdr {
+
+	 }
+
+div.ui-dialog span.desc p.boxlink a {
+	padding-left: 10px;
+    text-align: left;
+	 }
+
+div.ui-dialog span.desc h3 {
+	padding-left: 0px;
+	text-align: left;
+	 }
+
+#breadcrumbs{
+	padding: 5px 0 5px 0;
+	 }
+
+#breadcrumb {
+	display: block;
+	float: left;
+	width: 70%;
+	margin-top:3px;
+	 }
+#breadcrumb p {
+	font-size: 13px;
+	color: #777;
+	 }
+
+#breadcrumb p a:link, #breadcrumb p a:visited {
+	text-decoration: underline;
+	font-weight: normal;
+	color: #004f4b;
+	 }
+
+#breadcrumb p a:hover {
+	text-decoration: underline;
+	font-weight: normal;
+	 }
+
+#leftcolumn_0_txtBxTerm{
+	width:230px;
+	 }
+	
+#sc-top-links {
+	padding: 0px;
+	width: auto;
+	 }
+	 
+#catalog-dropdown {
+	float: right;
+}
+
+span.print {
+	display: block;
+	text-align: right;
+	 }
+
+.sc-List-1 {
+    padding-top: 7px;
+	padding-bottom: 8px;
+	 }
+
+.sc-List-2 {
+    padding-left: 20px;
+	line-height: 1 !important;
+	padding-bottom: 5px;
+	 }
+.sc-List-3 {
+    padding-left: 40px;
+	line-height: 1 !important;
+	padding-bottom: 5px;
+	 }
+
+#rightpanel #main p.sc-SubHeading {
+    font-weight: bold;
+	font-size: 20px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	 }
+	 
+#rightpanel #main p.sc-SubHeading2 {
+    font-weight: bold;
+	font-size: 18px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	 }
+
+span.mc_link a:hover {
+	font-weight:bold;
+	text-decoration: underline;
+	 }
+
+span.mc_link a:active{
+	text-decoration: none;
+	 }
+
+#sc-parentlink, #sc-childlinks {
+	float:left;
+	width:100%
+	 }
+
+#sc-parentlink  ul, #sc-childlinks ul  {
+	list-style: none;
+	margin: 0px;
+	margin-left: 0px;
+	width: 100%;
+	padding: 0px;
+	 }
+
+#sc-parentlink ul li p, #sc-childlinks ul li p {
+	margin-top: 0px;
+	margin-bottom:0px;
+	padding: 0px;
+	 }
+
+#sc-childlinks {
+	float:left;
+	width: 100%;
+	 }
+#sc-childlinks ul li {
+	margin-top:5px;
+	 }
+
+span.desc #main div.desc, span.desc #main div.credits  {
+	height: auto;
+	margin-right: 10px;
+	 }
+
+div.credits {
+	text-align: left;
+	margin-left: 0px;
+	 }
+
+.sc-ListNumber {
+    list-style: decimal;
+	margin-left:10px;
+	 }
+	 
+.sc-ListNumber2 {
+    list-style: upper-roman;
+	margin-left:10px;
+	 }
+	 
+.sc-ListNumber3 {
+    list-style: lower-roman;
+	margin-left:10px;
+	 }
+	 
+.sc-ListAlpha {
+    list-style: upper-alpha;
+	margin-left:10px;
+	 }
+	 
+.sc-ListAlpha2 {
+    list-style: lower-alpha;
+	margin-left:10px;
+	 }
+
+div.sidebox {
+	margin-top: 15px;
+	margin-left: 0px;
+	background: #f3f3f1;
+	 }
+	
+#searchtoggle {
+	background-image: url(/Institutions/Augusta-Technical-College/images/search-icon.gif);
+	background-repeat: no-repeat;
+	background-position: 1% 50%;
+	background-size: 30px 30px;
+	cursor: pointer;
+	width:100%;
+	height: 30px; 
+	display: none;
+	 }
+	
+#leftcolumn_0_Panel1 > div.sidebox > div.hdr {
+display: inline-block;
+padding: 0;
+	 }
+
+#leftcolumn_0_Panel1 > div.sidebox > div.sideboxbrdr {
+display: inline;
+	 }
+
+#leftcolumn_0_Panel1 > div.sidebox {
+    display: block;
+	background: #f3f3f1;
+	padding: 10px 0 10px 10px;
+	 }
+
+.toggled-on {
+	 display: block !important;
+	 }
+	 
+.toggled-oni {
+	 display: inline !important;
+	 }
+	
+#rightpanel li{
+	margin-left:20px;
+	 }
+	
+#rightpanel ul li {
+	list-style-type: disc;
+	margin-left:20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+	 }
+
+#rightpanel ul li.indented {
+	margin-left: 40px;
+}
+	 
+#rightpanel ul ul li {
+	list-style-type: circle;
+	margin-left:40px !important;
+	line-height: 1.5em;
+    padding-bottom: 5px;
+    padding-top: 5px;
+     }
+
+#rightpanel ul ul ul li {
+    list-style-type: square;
+	margin-left:60px !important;
+	line-height: 1.5em;
+    padding-bottom: 5px;
+    padding-top: 5px;
+     }
+
+#rightpanel ul li li {
+	list-style-type: circle;
+	margin-left:20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+	 }
+
+#rightpanel ul li li li {
+	list-style-type: disc;
+	margin-left:20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+	 }
+
+#rightpanel ul li li  li li  {
+	list-style-type: circle;
+	margin-left:20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+	 }
+	
+#rightpanel ol li  {
+	margin-left:20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+	 }
+
+#rightpanel ol li li {
+	list-style-type: lower-alpha;
+	margin-left:20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+	 }
+	
+#rightpanel p.sc-List-1 {
+	margin-left: 20px;
+    text-indent: -20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+	 }
+	 
+#rightpanel p.sc-List-2 {
+	margin-left: 40px;
+    text-indent: -20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+	 }
+	 
+#rightpanel p.sc-List-3 {
+	margin-left:60px;
+	text-indent:-20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+	 }
+	 
+#rightpanel p.sc-Note {
+	font-style:italic;
+	 }
+	 
+#rightpanel li a:link,
+#rightpanel li a:active,
+#rightpanel li a:focus,
+#rightpanel li a:visited {
+	text-decoration: none;
+	font-weight:normal;
+	 }
+
+#rightpanel li a:hover {
+	font-weight: normal;
+	 }
+
+/*Adding styles for sc-courselink*/	
+
+#rightpanel .sc-courselink  a:link,
+#rightpanel  .sc-courselink a:active,
+#rightpanel .sc-courselink a:focus,
+#rightpanel .sc-courselink a:visited {
+	text-decoration: none;
+	 }
+
+#rightpanel td.sc-coursenumber a:hover {
+	font-weight: normal;
+	text-decoration: underline;
+	 }
+
+/*End new styles for sc-courselink*/	
+
+#sc-top-links a:link, 
+#sc-top-links a:active, 
+#sc-top-links a:focus, 
+#sc-top-links a:visited {
+	text-decoration: none;
+	font-size: 11px;
+	 }
+
+#sc-top-links a:hover {
+	text-decoration: underline;
+	font-weight: normal;
+	background:none;
+	border:none;
+	 }
+
+#sc-parentlink a:hover, #sc-childlinks a:hover {
+	text-decoration: underline;
+	 }
+
+h1 {
+	font-size:28px;
+	font-size: 1.75rem;
+	line-height:1.2;
+	font-weight: bold;
+	 }
+
+h2 {
+	font-size: 28px !important;
+	border-bottom: 1px solid #c1bebd;
+    padding-bottom: 5px;
+	 }
+
+h3 {
+	font-size:16.8px;
+	font-weight:normal;
+    font-size: 1.05rem;
+	line-height:1.3;
+	 }
+
+h4 {
+	font-size:15.4px;
+	font-size: .9625rem;
+	font-weight:normal;
+	line-height:1.3;
+	 }
+h5 {
+    font-size:14px; 
+	font-size:.875rem; 
+	line-height:1.3; 
+	font-weight:normal
+	 }
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 14px;
+	 }
+
+tr, th {
+	vertical-align:top;
+	 }
+
+td {
+    vertical-align: middle;
+	 }
+
+.addthis_default_style{
+	padding:10px;
+	 }
+
+select, option, input {
+	font-size: 13px;
+	margin-top: 6px;
+	padding: 3px;
+	 }
+
+p.sc-BodyText img {
+    padding: 0 5px 0 0;
+	 }
+
+#rightpanel #main p.sc-BodyTextNS, #rightpanel #main p.bodytextns, #rightpanel #main p.sc-BodyTextNSIndented, #rightpanel #main p.sc-BodyTextNSRight {
+	margin: 0px;
+	 }
+	 
+#rightpanel #main p.sc-BodyTextNSIndented {
+	margin: 0 0 0 20px;
+}
+
+p.sc-BodyTextCentered, p.sc-BodyTextNSCentered {
+	text-align:center;
+	 }
+
+p.sc-BodyTextRight, p.sc-BodyTextNSRight {
+	text-align:right;
+	 }
+
+#rightpanel ul.sc-child-item-links li {
+	list-style-type: none;
+	 }
+
+p.sc-BodyTextIndented, p.sc-BodyTextNSIndented{
+	margin-left:20px;
+	 }
+
+#rightpanel ul.sc-child-item-links li {
+	list-style-type: none;
+	 }
+
+#rightpanel .sc-child-item-links li a:link,
+#rightpanel .sc-child-item-links li a:active,
+#rightpanel .sc-child-item-links li a:focus,
+#rightpanel .sc-child-item-links li a:visited {
+	text-decoration: none;
+	text-align: left;
+	 }
+
+#rightpanel .sc-child-item-links li a:hover {
+	font-weight: normal;
+	 }
+
+#rightpanel .sc-ListBullet li {
+	 line-height: 1.4;
+	 margin-top: 0px;
+	 margin-left:10px;
+	 }
+
+#rightpanel .sc-ListNumber li {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	line-height: 1.4;
+	margin-left:10px;
+	 }
+
+div.ui-dialog div.desc {
+	width: 450px;
+	height: auto;
+	 }
+
+p.boxlink {
+	display: block;
+	width: 100%;
+	 }
+
+#rightpanel #main p, span.desc div#main, p.sc-BodyText, p.sc-BodyTextCentered, p.bodytext, p {
+	font-family: "Source Sans Pro",sans-serif;
+    font-size: 18px;
+    line-height: 1.7;
+    color: #212121;
+	margin-top: 10px;
+	margin-bottom: 0 !important;
+	 }
+	 
+#rightpanel #main a:link, #rightpanel #main a:visited, #rightpanel #main a:active {
+	 text-decoration: none;
+	 display: inline;
+	 color: #004f4b;
+	 font-weight: bold;
+	 }
+
+#rightpanel #main a:hover {
+	 text-decoration:underline;
+	 }
+
+/*++++++++++++++++++++++++++++++++++NavLocal+++++++++++++++++++++++++++++++++++*/
+
+#navLocal li.hasChildren > button.expandable {
+	background-image:url("/Institutions/Augusta-Technical-College/images/open.png");
+	background-repeat:no-repeat;
+	background-position: left center;
+    float: left;
+    margin: 15px 0px 0 0;
+	padding:9px 10px 0 0;
+	cursor:pointer;
+    border: none;
+    background-color: transparent;
+	 }
+	 
+#navLocal li li.hasChildren > button.expandable {
+	margin-left: 15px;
+}
+
+#navLocal li li li.hasChildren > button.expandable {
+	margin-left: 30px;
+}
+
+#navLocal  li.hasChildren > button.collapsible {
+	background-image:url("/Institutions/Augusta-Technical-College/images/close.png");
+	background-repeat:no-repeat;
+	background-position: left center;
+    float: left;
+    margin: 15px 0px 0 0;
+    padding: 9px 10px 0 0;
+	cursor:pointer;
+    border: none;
+    background-color: transparent;
+	 }
+	 
+button.expandable span {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+#navLocal ul {
+	padding:0;
+	margin:0 0 0 0;
+	 }
+
+#navLocal li, #navLocal ul li ul li, .sidebox div.sideboxbrdr ul li {
+	clear: left;
+	list-style-type: none;
+	 }
+	 
+#navLocal li a, .sidebox div.sideboxbrdr ul li a {
+    border-bottom: 2px solid #fff;
+    display: block;
+    padding: 10px 0px 10px 10px;
+	background: #f3f3f1;
+	color: #212121;
+	font-size: 14px;
+    line-height: 1.3;
+	 }
+
+#navLocal li a:hover, .sidebox div.sideboxbrdr ul li a:hover, #navLocal li a:focus {
+	text-decoration:none;
+	background: #f1f1f1;
+	 }
+
+ul#navLocal {
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	 }
+
+#navLocal li.active, .sidebox div.sideboxbrdr ul li:active  {
+	display:block;
+	 }
+
+#navLocal li.active a, .sidebox div.sideboxbrdr ul a:active {
+	display:block;
+	font-weight: bold;
+	 }
+
+#navLocal li.active a:hover {
+	text-decoration:none;
+	 }
+#navLocal li.active li a {
+	display:block;
+	font-weight: normal;
+	 }
+
+#navLocal li.active li a:hover {
+	text-decoration:none;
+	 }
+
+#navLocal li.active li.active a {
+	display:block;
+	 }
+
+#navLocal li.active li.active  a:hover {
+	text-decoration:none;
+	 }
+
+#navLocal li.active li.active  li a {
+	display:block;
+	 }
+
+#navLocal li.active li.active  li a:hover {
+	text-decoration:none;
+	 }
+
+#navLocal li.active li.active li.active a {
+	display:block;
+	 }
+
+#navLocal li.active li.active li.active  a:hover {
+	text-decoration:none;
+	 }
+
+#navLocal li.active li.active li.active  li a {
+	display:block;
+	 }
+
+#navLocal li.active li.active li.active  li a:hover {
+	text-decoration:none;
+	 }
+
+#navLocal li.active li.active li.active li.active a {
+	display:block;
+	 }
+
+#navLocal li.active li.active li.active li.active  a:hover {
+	text-decoration:none;
+	 }
+
+#navLocal li.active li.active li.active li.active  li a {
+	display:block;
+	 }
+
+#navLocal li.active li.active li.active li.active  li a:hover {
+	text-decoration:none;
+	 }
+
+#navLocal li.active li.active li.active li.active li.active  a {
+	display:block;
+	 }
+
+#navLocal li.active li.active li.active li.active li.active   a:hover {
+	 }
+
+#navLocal li.active li.active li.active li.active li.active   li a {
+	display:block;
+	 }
+
+#navLocal li.active li.active li.active li.active li.active   li a:hover {
+	text-decoration:none;
+	 }
+
+#navLocal li.active li.active li.active li.active li.active  li.active a {
+	display:block;
+	 }
+
+#navLocal li.active li.active li.active li.active li.active li.active   a:hover {
+	text-decoration:none;
+	 }
+
+#navLocal li.active li.active li.active li.active li.active li.active li.active a {
+	display:block;
+	 }
+
+#navLocal li.active li.active li.active li.active li.active li.active   li a:hover {
+	text-decoration:none;
+	 }
+
+#navLocal li ul li a {
+	padding-left:30px;
+	 }	
+	 
+#navLocal li ul li ul li a  {
+	padding-left:45px;
+	 }	
+#navLocal li ul li ul li ul li a {
+	padding-left:60px;
+	 }	
+		
+#navLocal.navLocal li.parent-nav-item a { 
+
+	 }
+
+p.sc-degree-req-credits {
+	text-align:right;
+	 }
+
+p.sc-BodyTextNS {
+	text-align:left;
+	 }
+
+/*Right Panel Styles*/
+#rightpanel table {
+	max-width: 650px;
+	margin-top: 10px;
+	width: 100%;
+	text-align: left;
+	height: 100%;
+	line-height: 1.2;
+	 }
+
+#rightpanel td {
+	clear: both;
+    text-align: left;
+	padding: 5px;
+	border: 1px solid #c1bebd;
+	 }
+	 
+tr:nth-child(even) {background: #fff}
+tr:nth-child(odd) {background: #f1f1f1}
+
+#rightpanel td.sc-coursenumber  {
+	text-align: left;
+	width: 100px;
+	 }
+
+#rightpanel p.credits  {
+	text-align: right;
+	font-weight: bold;
+	text-transform: uppercase;
+	 }
+
+#rightpanel td p.credits  {
+	 text-align: right;
+	 font-weight: normal;
+	 text-transform: none;
+	 }
+
+#rightpanel td.sc-totalcredits  {
+	 padding-left: 5px;
+	 text-align: right;
+	 font-weight: bold;
+	 width:100px;
+	 }
+
+#rightpanel td.sc-coursetitle  {
+	 padding-right: 5px;
+	 text-align: left;
+	 width: 400px;
+	 }
+
+#rightpanel td.sc-totalcreditslabel  {
+	 text-align: left;
+	 font-weight: bold;
+	 width: 400px;
+	 }
+
+#rightpanel .sc-requirementsNote  {
+	 text-align: left;
+	 margin-top: 4px;
+	 font-style: italic;
+	 }
+
+#rightpanel #sc-childlinks ul  li, #rightpanel #sc-parentlink ul  li {
+	 list-style-type: none;
+	 }
+
+#sc-childlinks ul li p a, #sc-parentlink ul li p a  {
+	 display: block;
+	 line-height: 13px;
+	 margin-top: 8px;
+	 }
+
+#sc-relatedlinks {
+	 display:block;
+	 float:left;
+	 width: 100%;
+	 margin-bottom: 20px;
+	 }
+
+.sc-relatedlinklabel {
+     margin-top: 15px;
+	 }
+   
+#rightpanel ul.sc-searchPagination {
+	 display: inline;
+	 list-style-type: none;
+	 padding: 0px;
+	 }
+
+#rightpanel ul.sc-searchPagination li {
+	 display: inline;
+	 margin: 0px;
+	 padding-right: 10px;
+	 }
+
+div.sideboxbrdr > div > label {
+	 font-size: 2px;
+	 }
+
+select#leftcolumn_0_drpSearchType {
+	 margin: 0 15px 0 0px;
+	 }
+
+div.sidebox div.sideboxbrdr div label {
+     font-size: 1px;
+     line-height: 1px;
+	 }
+
+#smallmenu {
+    display: none;
+	cursor: pointer;
+	padding-top: 7px;
+    padding-bottom: 7px;
+	color: #39c;
+	font-size:15px;
+	font-weight: bold;
+	background-color: #ccc;
+	background-image: url(/Institutions/Augusta-Technical-College/images/menuicon.png);
+	background-repeat: no-repeat;
+	background-position: 94% 50%;
+    background-size: 15px 15px;
+	text-align: center;
+	width:100%;
+	margin: 0 auto;
+	 }
+
+.ui-dialog .ui-dialog-title {
+
+	 }
+
+.ui-dialog .ui-dialog-titlebar-close {
+top: 0% !important;
+margin: 5px 0 0 0 !important;
+	 }
+	 
+#skip_link {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    background: #fff;
+    color: #000;
+    font-style: normal;
+    z-index: 999;
+    text-transform: uppercase;
+    padding: 10px 10px 15px;
+}
+
+#skip_link:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: absolute;
+    white-space: normal;
+    width: auto;
+}
+
+	 
+.addthis_toolbox a.at300b {
+    font-size: 1px;
+    color: #fff;
+}
+
+.addthis_default_style .at300b, .addthis_default_style .at300bo, .addthis_default_style .at300m {
+	padding: 0px !important;
+}
+
+.addthis_toolbox a.at300b, .addthis_toolbox a.at300m {
+    width: 40px !important;
+}
+
+#rightpanel #main .sc-childlinks ul p, #rightpanel #main .sc-parentlink ul p {
+	margin: 0px;
+}
+
+#rightpanel #main .sc-parentlink {
+	margin-top: 30px;
+}
+
+#sc-rightpanel-top {
+	margin-bottom: 50px;
+}
+
+.ui-widget-header {
+	border: none !important;
+	background: transparent !important;
+	font-family: "Merriweather",serif !important;
+}
+
+.ui-widget-content {
+	border: none !important;
+}
+
+.ui-tabs .ui-tabs-panel {
+	padding: 1em .5em !important;
+}
+
+.ui-state-default {
+	border: 1px solid #337a5d !important;
+    background: #004f4b !important;
+    color: #fff !important;
+}
+
+.ui-state-active {
+	border: 1px solid #337a5d !important;
+    background: #fff !important;
+}
+
+.ui-tabs .ui-tabs-nav li a {
+	color: #fff !important;
+	white-space: normal;
+	text-align: center;
+	padding: 0px 10px!important;
+	font-size:16px;
+}
+
+#degree-req ul.ui-tabs-nav li:nth-child(1), #degree-req ul.ui-tabs-nav li:nth-child(4), #degree-req ul.ui-tabs-nav li:nth-child(3)  {
+	padding: 5px 0px!important;
+}
+
+.ui-tabs .ui-tabs-nav li.ui-state-active a {
+	color: #212121 !important;
+}
+
+.ui-tabs .ui-tabs-nav li a:hover {
+	text-decoration: none !important;
+}
+
+.ui-tabs .ui-tabs-nav li a:hover:before, .ui-tabs .ui-tabs-nav li a:focus:before {
+    content: "";
+    position: absolute;
+    margin: auto;
+    bottom: 15px;
+    left: 0px;
+    right: 0px;
+    width: 50px;
+    background: #ffc904;
+    height: 3px;
+	top: 55px;
+}
+
+#degree-req ul.ui-tabs-nav li {
+	list-style-type: none;
+	margin-left: 0px;
+	max-width: 16%;
+	height: 60px;
+}
+
+#degree-req {
+	font-family: "Source Sans Pro",sans-serif;
+    font-size: 18px;
+    color: #212121;
+}
+
+#rightpanel ul.sc-child-item-links li.indent {
+	margin-left: 40px;
+}
+
+.sc-Attributes, .sc_prereqs, .sc_coreqs {
+	display: inline-block;
+	width: 40%;
+	vertical-align: top;
+}
+
+.sc-Attributes h3 {
+	margin-bottom: 0;
+	display: inline-block;
+	margin-top: 20px;
+	font-family: "Source Sans Pro",sans-serif;
+    color: #212121;
+    line-height: 1.7;
+	font-weight: bold;
+}
+
+.sc_credits h3, .sc_prereqs h3, .sc_coreqs h3 {
+	margin-bottom: 0;
+	display: inline-block;
+	font-family: "Source Sans Pro",sans-serif;
+    color: #212121;
+    line-height: 1.7;
+	font-weight: bold;
+}
+
+.sc-Attributes h3:after, .sc_credits h3:after, .sc_prereqs h3:after, .sc_coreqs h3:after {
+	content: ":";
+	margin: 0 4px 0 -4px;
+}
+
+.sc_credits h3, .sc_credits .credits {
+	display: inline-block;
+}
+
+.sc_credits h3 {
+	margin-top: 0;
+}
+
+/*   Responsive Designs   */
+
+@media screen and (max-width: 980px) {
+
+/* setup menu toggle */
+
+.offcanvasmenu .mainmenu li.active ul {
+	display: block;
+}
+
+#sc-rightpanel-top {
+	 background-color: #fff;
+	 }
+	
+#middle {
+	 width: 100%;
+	 margin: 0 auto;
+	 clear:both; 
+	 float: none;
+	 }
+	
+.toc {
+	 display: none;
+	 }
+	
+.toggled-on {
+	 display: block;
+	 margin: 3px 20px;
+	 }
+	
+div#leftpanel>div.sidebox>div.hdr {
+	 cursor: pointer;
+	 background-color: #005935;
+	 background-image: url("/Institutions/Augusta-Technical-College/images/menuicon.png");
+	 background-repeat: no-repeat;
+	 background-position: 94% 50%;
+     background-size: 15px 15px;
+	 text-align: center;
+	 padding: 6px 0;
+	 border: 1px solid #777;
+	 margin-top: 0px;
+	 color: #fff;
+	 }
+   
+#sc-top-links {
+     display: none;
+   	 }
+
+#leftpanel>.sidebox {
+     display: block;
+   	 }
+      
+div.sidebox {
+     margin: 7px 20px;
+	 width: 100%;
+	 margin: 0 auto;
+   	 }
+	 
+div.sidebox div.hdr {
+     font-size: 14px;
+   	 }
+   
+#leftcolumn_0_txtBxTerm {
+	 width: 100px;
+	 }
+   
+#leftcolumn_0_Panel1 {
+	 /* display:none; */
+	 width: 95%;
+	 margin: 3px auto;
+	 }
+	 
+#leftcolumn_0_Panel1 > div.sidebox > div.sideboxbrdr {
+     display: inline;
+     }
+		 
+#leftcolumn_0_Panel1 > div.sidebox > div.hdr {
+     display: inline;
+     }
+		 
+#leftcolumn_0_Panel1 > div.sidebox > div.sideboxbrdr>div {
+     display: inline;
+     }
+		 
+div.sidebox div.sideboxbrdr div label {
+	 display:none;
+     }
+		 
+#sc-parentlink, #sc-childlinks {
+     float: none;
+     width: 100%;
+     }
+
+#rightpanel {
+	 clear:right;
+	 float: none;
+	 width:100%;
+	 max-width:960px;
+	 margin: 0;
+	 padding: 0;
+	 height: auto;
+	 }
+	 
+#main {
+	 margin:0;
+	 width:95%;
+	 height: auto;
+	 padding:15px 20px;
+	 }
+
+#leftpanel {
+	 max-width:100%;
+	 width:100%;
+	 margin:0;
+	 padding:0;
+	 float: none;
+	 clear:left;
+	 }
+	 
+#rightpanel #main {
+     width: 95%;
+	 float:none;
+	 margin: 0 auto;
+	 height: auto;
+	 padding-right:10px;
+	 padding-left:10px;
+	 }  
+	
+#searchBox div.sidebox  {
+    display: block;
+    float: left;
+    margin: 0px auto;
+    width: 100%;
+     }
+		 
+#searchBox div.sidebox  div.hdr{
+    display: block;
+    float: left;
+	width: 100px;
+	margin-top:7px;
+	font-size: .85em;
+     }
+		 
+#searchBox  div.sidebox  div.sideboxbrdr {
+	display: block;
+    float: left;
+	width: 300px;
+     }
+		 
+#searchBox {
+    height: auto;
+    padding-bottom: 8px;
+     }
+	
+#rightpanel table {
+      width: 100% !important;
+     }
+	
+#rightpanel td.sc-coursenumber {
+     }
+	
+#footerWrap {
+     width: 100%;
+     }
+	
+#pageBanner {
+     width: 100%;
+     }
+
+/* end menu toggle */
+	
+#smallmenu {
+     display:block;
+     }
+		 
+#topnav, .logins {
+     display:none;
+     }
+	
+ul#topnav {
+     float: none;
+     height: auto;
+     }
+	
+ul#topnav a.prospective, ul#topnav a.current, ul#topnav a.online,  ul#topnav a.faculty, ul#topnav a.visitors, ul#topnav li {
+	 width: 100% !important; 
+	 margin: 0 auto;
+	 float: none;
+	 display: block;
+     }
+	
+#footer {
+     font-size: 12px;
+     font-size: .75rem;
+     }
+	 
+.bannerWrap {
+	position: absolute;
+    right: auto;
+    top: 5px;
+    left: 150px;
+    z-index: 2;
+    max-width: 200px;
+}	 
+	
+.bannerWrap p {
+	color: #fff;
+	text-align: left;
+}
+
+#breadcrumb {
+	width: 90%;
+}
+
+header .mainmenu, header .quicklinks {
+    display: none;
+}
+
+nav.offcanvasmenu ul:nth-child(6), nav.offcanvasmenu ul:nth-child(5), nav.offcanvasmenu ul:nth-child(7), nav.offcanvasmenu ul:nth-child(8), nav.offcanvasmenu ul:nth-child(9), nav.offcanvasmenu ul:nth-child(10) {
+	display: none;
+}
+	
+}
+
+@media screen and (max-width: 770px) {
+
+.secondaryNavWrap {
+     display:none;
+     }
+
+.toggled-on {
+	 display: block !important;
+	 }
+}
+
+@media screen and (max-width: 550px) {
+
+.bannerWrap {
+	display: none;
+}
+
+.bannerWrap p {
+	max-width: 150px;
+	margin-top: 0px;
+	font-size: 14px
+}
+	
+.toggled-on {
+}
+
+#sc-rightpanel-top {
+     float: right;
+     max-width: 550px;
+	 width: 95%;
+     margin: 0 10px;
+	 float:none;
+     }
+		 
+#rightpanel #main {
+     width: 97%;
+     max-width: 550px;
+     margin: 0 4px;
+     padding-right: 3px;
+     padding-left: 3px;
+     }
+		 
+#rightpanel table {
+     width: 97% !important;
+	 padding-right: 3px;
+     padding-left: 3px;
+	 margin: 0;
+     }
+		 
+p.credits {
+     width: 95% !important;
+	 padding-right: 6px;
+     padding-left: 3px;
+	 margin: 0;
+     }
+		 
+#footer {
+
+     }
+		 
+#footerSC {
+	 clear:both;
+	 display: block;
+	 }
+	
+div.ui-dialog  {
+	 max-width:90% !important;
+     }
+	 
+div.ui-dialog div.desc {
+     width: 90%;
+     height: auto;
+     }
+	 
+span.desc div#main {
+     margin: 5px;
+	 padding: 5px;
+     }
+}
+
+@media screen and (max-width: 450px) {
+
+.toggled-on {
+	}
+
+#smallmenu {
+	 font-size: 12px;
+	 }
+	 
+#footerSC a {
+     font-size: .6em;
+     }
+	 
+p.sc-BodyText, p.sc-BodyTextCentered, p.bodytext, p {
+     font-size: 12px;
+     font-size: .75rem;
+     }
+	
+#breadcrumb p {
+     font-size: 11px !important;
+     font-size: .6825rem !important;
+     }
+	 
+#breadcrumb p a:link, #breadcrumb p a:visited {
+     font-size: 11px !important;
+     font-size: .6825rem !important;
+     }
+}
+
+@media screen and (max-width: 360px) {
+
+#leftcolumn_0_txtBxTerm {
+     max-width: 55px;
+	 margin-left:2px;
+     }
+	 
+select#leftcolumn_0_drpSearchType {
+     margin: 0 0 0 15px;
+     }
+}
